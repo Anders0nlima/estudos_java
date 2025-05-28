@@ -8,5 +8,7 @@ public class Main {
         despertador.minutos = 30;
 
         despertador.ativarSoneca();
+        System.out.println(despertador.agendaAlarme());
+
     }
 }
