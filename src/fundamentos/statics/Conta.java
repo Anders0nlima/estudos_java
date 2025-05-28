@@ -6,11 +6,11 @@ public class Conta {
     double saldo;
 
    void depositarContaConjunta(double valor){
-       saldoContaConjunta += valor;
+       saldoContaConjunta += valor; // saldoContaConjunta = saldoContaConjunta + valor;
    }
 
    void saldo(double valor){
-       saldo += valor;
+       saldo += valor; // saldo = saldo + valor
    }
 
 
